@@ -11,6 +11,9 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
+        <activity android:name=".Homepage"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".ForgotPasswordActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity

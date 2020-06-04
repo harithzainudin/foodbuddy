@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Food Budyy</string>
+    <string name="app_name">Food Buddy</string>
     <string name="hint_username">Username</string>
     <string name="hint_password">Password</string>
     <string name="button_sign_in">Sign in</string>
@@ -19,4 +19,11 @@
     <string name="hint_email">Email</string>
     <string name="hint_phone">Phone</string>
     <string name="hint_confirm_password">Confirm Password</string>
+
+    <!-- Role Selection Page -->
+    <string name="button_admin">Administrator</string>
+    <string name="button_customer">Customer</string>
+    <string name="button_seller">Seller</string>
+    <string name="selection_text">Please Select Your Role</string>
+    <!-- End of Role Selection Page Resources -->
 </resources>
