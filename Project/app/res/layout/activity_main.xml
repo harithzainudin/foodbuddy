@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login_opacity"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TVtitleWelcome"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingTop="40dp"
+        android:text="Welcome to foodbuddy"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="40dp"
+        app:fontFamily="@font/roboto_bold" />
+
+    <TextView
+        android:id="@+id/TVsignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:text="Sign in to continue"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:fontFamily="@font/roboto" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingTop="50dp"
+        android:paddingRight="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <EditText
+                android:id="@+id/EditTextMatricNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Matric Number"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#7AFFFFFF" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="5dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#7AFFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingTop="50dp"
+        android:paddingRight="40dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="true"
+            app:fontFamily="@font/roboto_bold"
+            android:textColor="#FFFFFF"
+            android:text="Sign In" />
+    </LinearLayout>
+
+</LinearLayout>

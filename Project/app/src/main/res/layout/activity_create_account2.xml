@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_create_account2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/back"
+                android:textColor="#D6DB46"
+                android:textSize="18sp"
+                app:fontFamily="@font/roboto_black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingTop="50dp"
+                android:paddingBottom="50dp">
+
+                <ImageView
+                    android:id="@+id/uploadImage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/add_image"
+                    android:contentDescription="@string/add_image" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="50dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/EditTextPhoneNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="20"
+                        android:hint="@string/phone_number"
+                        android:inputType="textPersonName"
+                        android:paddingStart="10dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="3dp"
+                        android:paddingBottom="15dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#7A000000"
+                        app:boxBackgroundColor="#FFFFFF"
+                        app:boxStrokeColor="#000000">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/text_input_phone_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="@string/phone_number"
+                            android:inputType="phone"
+                            android:textColor="#020202"
+                            android:textColorHint="#7CFFFFFF" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/EditTextAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/address"
+                        android:inputType="textPersonName"
+                        android:paddingStart="10dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="3dp"
+                        android:paddingBottom="15dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#7A000000"
+                        app:counterMaxLength="4">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/text_input_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="@string/address"
+                            android:inputType="textCapSentences|textImeMultiLine"
+                            android:isScrollContainer="true"
+                            android:maxLines="4"
+                            android:paddingTop="50dp"
+                            android:singleLine="false"
+                            android:textColor="#000000"
+                            android:textColorHint="#74FFFFFF"
+                            android:textColorLink="#000000" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/EditTextMatrixNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/matrix_number"
+                        android:inputType="textPassword"
+                        android:paddingStart="10dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="3dp"
+                        android:paddingBottom="15dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#7A000000"
+                        app:boxStrokeColor="#FFFFFF">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/text_input_matrix"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="@string/matrix_number"
+                            android:inputType="text"
+                            android:textColor="#000000"
+                            android:textColorHint="#77FFFFFF" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingTop="20dp">
+
+                        <ProgressBar
+                            android:id="@+id/progressBar"
+                            style="?android:attr/progressBarStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="invisible" />
+
+                        <Button
+                            android:id="@+id/buttonCreateAccount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button"
+                            android:fontFamily="@font/roboto_bold"
+                            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                            android:text="@string/create"
+                            android:textColor="#FFFFFF" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

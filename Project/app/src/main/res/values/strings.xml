@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Foodbuddy</string>
+    <string name="welcome">Welcome to foodbuddy</string>
+    <string name="create">Create Account</string>
+    <string name="fill_form">Hi, kindly fill in the form to proceed</string>
+    <string name="matrix_number">Matrix Number</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">UPM Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="next">Next</string>
+    <string name="have_acc">Already have an account? Login</string>
+    <string name="back"><![CDATA[< back]]></string>
+    <string name="add_image">Add Image</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="account_has_been_created">Your account\nhas been created!</string>
+    <string name="click_to_login">Click the button below to login!</string>
+    <string name="login">Login</string>
+    <string name="dont_have_acc_sign_up">Don\'t have an account? Sign up</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="button_sign_in">Sign in</string>
+    <string name="button_sign_up">Sign up</string>
+    <string name="button_send">Send</string>
+    <string name="text_forgot_password">Forgot password?</string>
+    <string name="text_signin_message">SIGN IN</string>
+    <string name="text_signin_social_media">Or Sign in using social media</string>
+    <string name="text_signup_social_media">Or Sign up using social media</string>
+    <string name="text_signin_signup">Don\'t have Food Buddy account? <b>Sign up now!</b></string>
+    <string name="text_signup_terms">By signing up, you agree to our <b>terms and conditions</b></string>
+    <string name="text_signup_message">Hello, let\'s set up your account</string>
+
+    <string name="text_forgot_password_title">Forgot your password?\nNo worries, we got you!</string>
+    <string name="text_forgot_password_message">We will send you a link to reset your password</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+
+    <!-- Role Selection Page -->
+    <string name="button_admin">Administrator</string>
+    <string name="button_customer">Customer</string>
+    <string name="button_seller">Seller</string>
+    <string name="selection_text">Please Select Your Role</string>
+    <!-- End of Role Selection Page Resources -->
+
+    <!--User Profile String Resources-->
+    <string name="user_profile">User Profile</string>
+    <string name="order_history">Order History</string>
+    <string name="editButton">Edit</string>
+
+    <!--Order History String Resources -->
+    <string name="bought">Bought Food</string>
+    <string name="sell">Sell Food</string>
+    <string name="title_activity_order_history">OrderHistory</string>
+    <string name="order_default">Order More to See History</string>
+    <string name="blank"> </string>
+    <string name="sell_default">Sell More To See History</string>
+</resources>
